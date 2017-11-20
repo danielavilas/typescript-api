@@ -1,0 +1,21 @@
+{
+  "name": "typescript-api",
+  "version": "1.0.0",
+  "description": "TypeScript API",
+  "main": "server.js",
+  "author": "Daniel Avila",
+  "license": "MIT",
+  "scripts": {
+    "start": "node build/server.js",
+    "build": "gulp build"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.2.3",
+    "typescript": "^2.6.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
+}
